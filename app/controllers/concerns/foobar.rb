@@ -1,5 +1,10 @@
 class Foobar
-  # ENTER CODE FOR Q2 HERE
-  def initialize(param)
+
+  def initialize(input)
+  	@input = input
+  end
+
+  def bar(first, second)
+  	return "#{first}#{@input}#{second[:sat]}"
   end
 end
